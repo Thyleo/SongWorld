@@ -1,0 +1,62 @@
+#sidebar2{
+  width: 13vw;
+  height: 100%;
+  margin-left: 87vw;
+  margin-top: 8vh;
+  background:  #333;
+  border-bottom-left-radius: 10px;
+
+  position: absolute;
+  top: 0;
+}
+
+
+#sidebar2 ul li{
+  border-bottom: 2px solid rgba(200,200,200);
+  padding: 5%;
+}
+
+
+#sidebar2 a{
+  color: white;
+  text-decoration: none;
+}
+
+
+#accueil2{
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+}
+
+#nouveaute2{
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+}
+
+#playlist2{
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+}
+
+#parametre2{
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+}
+
+#contact2{
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+}
+
+#sidebar2 p{
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: 2px solid rgba(200,200,200);
+  padding: 6%;
+}

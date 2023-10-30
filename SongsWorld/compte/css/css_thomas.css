@@ -1,0 +1,304 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#menu{
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 2px 0px 0px 2px;
+}
+
+#menu:hover{
+  transform: scale(1.09);
+}
+
+
+
+#sidebar{
+    position: fixed;
+    width: 13vw;
+    height: 85%;
+    background: #333;
+    border-top-right-radius: 10px;
+    left: -13vw;
+    transition: all 800ms linear;
+
+}
+
+#sidebar.active{
+  left: 0%;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+
+}
+
+#sidebar ul li{
+  color: rgba(200,200,200);
+  border-bottom: 2px solid rgba(200,200,200);
+}
+
+
+#accueil{
+  text-decoration: none;
+  color: white;
+}
+
+#nouveaute{
+  color: green !important;
+}
+
+#contenu{
+  position: absolute;
+  padding: 2%;
+  width: 83vw;
+  overflow: auto;
+  height: 65vh;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 800ms linear;
+  flex-direction: column;
+}
+
+#contenu_defaut{
+  position: absolute;
+  padding: 2%;
+  width: 83vw;
+  overflow: auto;
+  height: 65vh;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 800ms linear;
+}
+
+
+.contenu-actif{
+  width: 70vw !important;
+  margin-left: 13vw;
+}
+
+
+
+#sidebar2{
+  width: 13vw;
+  height: 90vh;
+  margin-left: 87vw;
+  position: absolute;
+  top: 0;
+}
+
+
+
+/* partie affichage vignettes */
+
+.categories{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.colonne{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+
+
+#boutons_choix{
+  margin-left: 38%;
+  margin-top: 2%;
+}
+
+#choix1{
+  background-color: #0088cc;
+  border : 3px solid black;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius : 5px;
+
+}
+
+#choix2{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius : 5px;
+}
+
+
+
+/* partie lecteur */
+.lecteur{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  align-items: center;
+  height: 8%;
+}
+
+/* partie slider timer */
+
+#timer {
+  border-radius: 15px;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 1;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+
+
+#timer::-moz-range-thumb {
+  border: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #0088cc; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+  visibility: hidden;
+}
+
+
+
+.vingt-cinq-pourcent::-moz-range-progress {
+ background: red;
+ height: 25px;
+ border-radius: 15px;
+}
+
+.cinquante-pourcent::-moz-range-progress {
+ background: green;
+ height: 25px;
+ border-radius: 15px;
+}
+
+.soixante-quinze-pourcent::-moz-range-progress {
+ background: blue;
+ height: 25px;
+ border-radius: 15px;
+}
+
+
+.cent-pourcent::-moz-range-progress {
+ background: yellow;
+ height: 25px;
+ border-radius: 15px;
+}
+
+.lecteur p{
+  color: white;
+  text-align: center;
+}
+
+
+.lecteur button{
+  background-color: #0088cc;
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius : 5px;
+}
+
+
+
+/* partie slider volume */
+
+#volume {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-right: 1%;
+}
+
+#volume:hover {
+  opacity: 1;
+}
+
+#volume::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #0088cc; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+}
+
+#bouton_repeter{
+  min-width: 10vw;
+}
+
+#bouton_repeter:hover{
+  margin-left: 15px;
+}
+
+
+#div-test{
+background-color: red;
+position: absolute;
+width: 50vw;
+height: 50vh;
+margin-left: 25%;
+margin-right: 25%;
+top: 0;
+display: none;
+padding: 15px;
+
+border-radius: 15px;
+margin-top: 10vh;
+}
+
+#div-test p{
+  margin-top: 10px;
+}
+
+
+
+
+    #fermer_liste_playlists {
+      background: black;
+      height: 100px;
+      position: relative;
+      width: 20px;
+      transform: rotate(45deg);
+    }
+    #fermer_liste_playlists:after {
+      background: black;
+      content: "";
+      height: 20px;
+      left: -40px;
+      position: absolute;
+      top: 40px;
+      width: 100px;
+    }

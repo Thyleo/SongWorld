@@ -1,0 +1,54 @@
+
+
+        /* Code css pour animer le bouton */
+        #boutonTelech{
+          position: absolute;
+          top: 660px;
+          left: 51%;
+          transform: translate(-50%, -50%);
+        }
+
+        a{
+          display: block;
+          width: 400px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 18px;
+          font-family: sans-serif;
+          text-decoration: none;
+          background-color: #4169E1;
+          color: white;
+          border: 4px solid rgb(0, 0, 0);
+          letter-spacing: 2px;
+          text-align: center;
+          position: relative;
+          transition: all .35s;
+          border-radius: 12px;
+        }
+
+        a span{
+          position: relative;
+          z-index: 2;
+        }
+
+        a:after{
+          position: absolute;
+          content: "";
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 100%;
+          background:black;
+          transition: all .35s;
+        }
+
+        a:hover{
+          color: #FF8C00;
+        }
+
+        a:hover:after{
+          width: 100%;
+        }
+        
+
+        

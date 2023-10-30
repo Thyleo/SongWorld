@@ -1,0 +1,88 @@
+
+
+button {
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    color:white;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    color: #4169E1;
+}
+    
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+    
+
+
+
+#partieInfo{
+
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    color:white;
+    height: 0px;
+    width: 100%;
+    background-color: gray;
+    font-size: large;
+    transition:  height 2s, background-color 2s, transform 2s;
+}
+
+#cacherInfo{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    
+    top: 0px;
+    right: 5px;
+    background-color: teal;
+    height:50px;
+    width: 7%;
+}
+
+
+
+
+
+
+
+#partieGlobal{
+    padding-top:30px;
+    float:left;
+
+    margin-left: 0.5%;
+    height:80%;
+    width: 24%;
+    /*background-color: black;*/
+}
+#partieExplorer{
+    padding-top:30px;
+    float:left;
+    margin-left: 1%;
+    height:80%;
+    width: 24%;
+    /*background-color:yellow;*/
+}
+#partieQuiSommeNous{
+    padding-top:30px;
+    float:left;
+    margin-left: 1%;
+    height:80%;
+    width: 24%;
+    /*background-color: brown;*/
+}
+#partieLegal{
+    padding-top:30px;
+    float:left;
+    margin-left: 1%;
+    height:80%;
+    width: 24%;
+    /*background-color:honeydew;*/
+}
+
+

@@ -1,0 +1,84 @@
+
+    /* code css pour l'entete*/
+
+     header{
+        z-index: 1;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        position: fixed;
+        top:0px;
+        left:0;
+        background-color:black;
+        color : white;
+    }
+
+    #titre{
+        margin-left:160px;      
+        font-size: xx-large;
+        font-style: italic;
+        margin-top: 23px; 
+        font-family: Impact, fantasy;
+        cursor: pointer;  
+    }
+
+    #titre:hover {
+        color: #4169E1;
+    }
+
+
+    .en-tete{
+        position: relative;
+        display: inline-block;
+    }
+
+    #inscription{
+        position : relative;
+        padding-right:30px;
+        left:15px;
+    }
+
+    #connexion{
+        position : relative;
+    }
+
+    .balise{
+        position: relative;
+        margin-left: 48%;
+        margin-top:-105px;
+        font-size: large;
+    }
+
+    #barre{
+        font-size: 30px;
+        padding-right: 30px;
+        top :5px;
+        left:15px;
+        color:#4169E1;
+    }
+
+    #mot1, #mot2, #mot3{
+        padding-left: 10px;
+    }
+
+    button {
+        font-size: 17px;
+        cursor: pointer;
+        background-color:transparent;
+        color:white;
+        border: 2px solid transparent;
+    }
+
+    button:hover {
+        color: #4169E1;
+    }
+    
+    .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    }
+    
+    embed{
+        margin-left: 50%;
+        margin-top: 40%;
+    }

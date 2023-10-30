@@ -1,0 +1,32 @@
+.icone{
+	padding:20px; 
+	font-size:30px; 
+	width:80px; 
+	position:absolute; 
+	z-index:1;
+	background: #333;
+	color:#fff;
+	border-radius: 0px 100px 100px 0px;
+	position:fixed;
+		}
+.icone:hover{
+	cursor: pointer;
+	background: #ddd;
+}
+@media (min-width: 480px) and (max-width: 780px){
+	.icone{
+		padding:10px; 
+		font-size:25px; 
+		width:60px; 
+		position:absolute; 
+		z-index:1;
+		background: #333;
+		color:#fff;
+		border-radius: 0px 100px 100px 0px;
+		position:fixed;
+	}
+	.icone:hover{
+		cursor: pointer;
+		background: #ddd;
+	}
+}

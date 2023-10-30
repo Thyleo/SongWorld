@@ -1,0 +1,114 @@
+
+ 
+    /*La grosse div qui contient toutes mes div de presentation de la page*/
+    #corps2{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        left:0;
+        color:white;
+        margin-top: 620px;
+        /*background-color:burlywood;*/
+        background: url("images/img1.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        z-index: -1;
+    }
+
+     /*La div qui contient la video */
+     #video{
+        margin-top: -550px;
+        width: 100%;
+        height:400px; 
+        background-color: burlywood;
+         
+    }
+
+    /*L'id du titre de ma deuxieme div de presentation*/
+    #text{
+        font-size: x-large;
+        font-family: OCR A Std, monospace;
+        font-weight: bold;
+        margin-left: 2%;
+        margin-top: -10px;
+    }
+
+    /*l'id du mot en en-tete de ma 2eme div*/
+    #logo{
+        margin-left: 2%;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: Courier New, monospace;
+    }
+
+    /*L'id du texte de ma deuxieme div*/
+    #text1{
+        
+        margin-left: 2%;
+        font-family: OCR A Std, monospace;
+    }
+
+    /*La div qui contient ma 3eme presentation*/
+    #text2{
+        
+        background: url("images/img2.jpg");
+        background-size: 100%;
+        background-position-y: 82%;
+         background-size: 100%;
+         margin-top: 43px;
+         width: 100%;
+         height:300px;      
+    }
+
+    /*Le titre de ma 3eme div*/
+    #text3{
+        font-size: xx-large;
+        font-family: OCR A Std, monospace;
+        font-weight: bold;
+        margin-left: 58%;
+        padding-top: 78px;
+        color: white;
+
+    }
+
+    /*Le texte de ma 3eme div*/
+    #text4{
+        font-family: OCR A Std, monospace;
+        margin-left: 58%;
+        color: white;
+    }
+    
+   
+
+    #t1{
+        margin-left: 36%;
+        margin-top: -12px;
+    }
+
+    
+    
+    #text5{
+        margin-top: 20px;
+         width: 100%;
+         height:300px; 
+         text-align: center;
+         background:url("images/imgB.jpg");
+         background-position-y: 50%;
+         background-size: 100%;
+         color:white;
+    }
+
+    #text6{
+        font-size: xx-large;
+        font-family: OCR A Std, monospace;
+        font-weight: bold;
+        margin-left: 2%;
+        padding-top: 50px;
+    }
+
+    #text7{
+        margin-left: 2%;
+        font-family: OCR A Std, monospace;
+    }
+
+   

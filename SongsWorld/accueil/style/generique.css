@@ -1,0 +1,18 @@
+body{      
+    background-color: rgba(163, 160, 144, 0.561);
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    font-style: normal;
+    font-family: Georgia;
+}
+
+#marge{
+    position: absolute;
+    
+    top:150px;
+    left: 7%;
+    bottom: 200px;
+    width: 86%;
+    border-color: black;
+    border-width: 5px;
+}

@@ -1,0 +1,191 @@
+
+
+#fermerVidPromo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#backVidPromo{
+    display: run-in;
+    width: 94%;
+     height: 90%;
+     top: 9%;
+     left: 3%;
+    position: absolute;
+    z-index: 10;
+    background-color: black;
+    opacity: 98%;
+
+  }
+
+
+
+.video{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+     
+ }
+
+ 
+.vidIntegrer{
+     position: relative;
+     display: block; 
+     width: 40%;
+     height: 40%;
+     top: 605px;
+     left: 600px;
+ }
+
+
+
+
+#princ{
+    opacity: 80%;
+}
+
+
+
+    /* Le fond d'ecran de la page d'accueil en entier */
+body{
+    background:url("images/background.png");
+    background-size: 100%;
+    overflow: hidden;
+}
+
+        /*La partie qui contient le vinyle de la page d'accueil */
+        #corps{
+        width: 100%;
+        height:625px;
+        position: absolute;
+        margin-top: 53px;
+        left:0;
+        background-color:#FF8C00;
+        color :	#4169E1;
+        }
+
+        /*Le titre de bienvenu*/
+        h1{
+            text-align: center;
+            margin-bottom: 50%;
+            position : relative;
+            margin-top: 10px;      
+            font-size:500%;
+            font-style: normal;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;     
+            
+        }
+
+        /*Le bas de page est ici !!! Le contactez-nous*/
+        footer{
+            background-color: black;
+            opacity: 60%;
+            height: 200px;
+            width: 100%;
+            margin-top: 610px;
+            left:0;
+            position:absolute;
+            
+        }
+        
+        /*La citation qui bouge*/
+        #toto{
+            text-align: center; 
+            position: relative;
+            top:560px;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+        }
+
+        h3{
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        /*Debut de la mise en page du footer */
+        #colonne{
+            margin-left: 15%;
+            
+        }
+
+        #col0{
+            margin-top: 50px;
+            color:rgb(160, 160, 160);
+        }
+
+        #col1,#col2,#col3{
+            margin-top: 50px;
+            padding-left: 90px;
+            color:rgb(160, 160, 160);
+        }
+
+        .align{
+            display: inline-block;         
+        }
+
+        #ligne1:hover,#ligne2:hover,.col0:hover,.col1:hover,#ligne3:hover,.col2:hover{
+            color : #FF8C00;
+            cursor : pointer;
+        }
+
+        #ligne1{
+            color: white;
+            padding-top: 10px;
+            margin-top: -10px;
+            margin-bottom: 80px;            
+            font-weight: bold;
+            font-size: medium;
+        }
+        .col0{
+            color: white;
+            padding-top: 10px;
+            margin-top: -80px;
+            padding-bottom: 60px;
+            
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        #ligne2{
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+            margin-top:-220px;
+            margin-left: 18%;
+        }
+
+        .col1{
+            color: white;
+            padding-top: 17px;
+            margin-top: -24px;
+            margin-left: 18%;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        #ligne3{
+            margin-top:-122px;
+            margin-left: 34.5%;
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        .col2{
+            margin-left: 34.5%;
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+        }
+       /*Fin de la mise en page du footer*/
+  
+        
+
+        

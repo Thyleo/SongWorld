@@ -1,0 +1,101 @@
+
+   /* body{
+        background-color:burlywood;
+        width: 100%;
+
+    }*/
+
+    #corps3{
+        width:60%;
+        height: 150px;
+        /*background-color: black;*/
+        background: url("images/img4.jpg");
+        background-size: 100%;
+        background-position-x: left;
+        color: white;
+        text-align: center;
+        margin-left: 16%;
+        border-radius: 20px / 20px;
+        margin-top: 300px;
+    }
+
+
+    #corps4{
+        position: absolute;
+        margin :6%;
+        margin-top: 45px;
+    }
+
+    #hey{
+        font-family: Courier New, monospace;
+        cursor: pointer;
+        font-size: 200%;
+    }
+
+    #lis{
+        margin-top: -10px;
+        font-family: OCR A Std, monospace;
+        font-size : X-large;
+    }
+
+    #bloc{
+        position: relative;
+        left: 22%;
+        display: flex;
+        
+        
+        margin-top: 40px;
+        
+    }
+    .backImg{
+        width : 250px;
+        height: 300px;
+        margin-inline: 5px;
+        
+        position: relative;
+       /* background-color: white; */
+        background: url("images/img3.jpg");
+        background-size: 100%;
+        display: flex;
+        border-radius: 30px / 30px;
+        
+    }
+   
+    #bloc2{
+        position: relative;
+        left: 22%;
+        display: flex;
+        
+        
+        margin-top: 40px;
+        
+    }
+
+   
+    .barre{
+        margin-top: 10px;
+        margin-inline: 5px;
+        width : 250px;
+        height: 165px;
+          
+        border-radius: 30px / 30px;
+        text-align: center;
+        background-color: gray;
+    }
+
+    .pl{
+        display: inline-table;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+    }
+
+    .pp{
+        font-family: OCR A Std, monospace;
+        font-size: 140%;
+        font-style: italic; 
+    }
+
+    #blocInfos{
+        margin-top: 1600px;
+       
+    }

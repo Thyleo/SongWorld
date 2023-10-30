@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+      <div class="navBar">
+        <img onmouseover="ChgMenu()" onmouseout="RtblMenu2()" src="images/imageN2.png"  id="menu" onclick="sidebarBtn()" >
+          <p class="Titre">
+              Song's World
+          </p>
+            <input type="text" id="champText" placeholder="Tapez ici votre recherche">
+            <button type="button" id="BOK">Ok</button>
+
+            <div id="listeChampText" onclick="affichageListeRecherche()" ></div>
+
+          <img onmouseover="search1()" onmouseout="search2()" src="images/rechercher.png" alt="Oops...erreur" id="recherche" onclick="BarRecherche()">
+      </div>
+
+
+
+      <div id="sidebar">
+            <div class="listeDeroulante" >
+              <ul>
+                <br>
+                <li> <a href="accueil/index.html" id="accueil" >Accueil</a></li><br>
+                <li><a href="index.html" id="nouveaute" >Nouveauté</a></li><br>
+                <li><a href="index.html" id="playlist" >Playlist</a></li><br>
+                <li><a href="index.html" id="parametre" >Parametre</a></li><br>
+                <li><a href="index.html" id="contact" >Contactez-nous</a></li><br>
+              </ul>
+            </div>
+      </div>
+
+      <div id="contenu">
+
+      </div>
+
+
+
+
+
+      <div class="container">
+        <h3 id="titre">Formulaire</h3><br><br>
+        <form>
+          <label for="name1">Prénom: </label>
+          <input type="text" id="name1" name="firstname" placeholder="Jean..">
+          <br><br>
+          <label for="name2">Nom: </label>
+          <input type="text" id="name2" name="lastname" placeholder="Arman..">
+          <br><br>
+          <label for="subject" id="labelMessage">Message: </label>
+          <textarea id="message" name="message" placeholder="Ecrivez quelque chose.." style="height:200px"></textarea>
+          <br><br>
+          <input type="submit" value="Submit" id="submit">
+          <input type="reset" value="Reset" id="reset">
+          <br><br>
+        </form>
+
+      </div>
+
+        <footer>
+            <div id="colonne">
+              <div class="align"><h3 id="col0"> SONG'S WORLD </h3></div>
+              <div class="align"><h3 id="col1"> PROJET WEB </h3></div>
+              <div class="align"><h3 id="col2"> COMMUNAUTÉS </h3></div>
+              <div class="align"><h3 id="col3"> LIENS UTILES </h3></div><br>
+              <br>
+              <div><p id="ligne1"> A propos </p></div>
+              <div class="col0"><p> Offres </p></div><br>
+              <div class="col0"><p> Aide </p></div><br>
+              <div class="col0"><p> Tu t'ennuies ? </p></div>
+              <br><br><br>
+              <div><p id="ligne2"> Tout savoir sur ce projet </p></div><br>
+              <div class="col1"><p> Jeu de memory </p></div><br>
+              <div class="col1"><p> Calculatrice </p></div><br>
+              <br>
+              <div><p id="ligne3">  </p></div>
+              <div class="col2"><p> Espace artistes </p></div><br>
+              <div class="col2"><p> Investisseurs </p></div><br>
+              <div class="col2"><p> Fournisseurs </p></div><br>
+              <div class="col2"><p> Pour les developpeurs </p></div>
+            </div>
+         </footer>
+
+        <script src="main.js" charset="utf-8"></script>
+
+    </body>
+</html>

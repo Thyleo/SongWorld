@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body{
+  background: orange;
+}
+
+
+#sidebar{
+    position: absolute;
+    width: 13vw;
+    height: 100%;
+    background: #333;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: -13vw;
+
+    transition: all 700ms linear;
+
+}
+
+#sidebar.active{
+  left: 0%;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#sidebar ul li{
+  border-bottom: 2px solid rgba(200,200,200);
+  padding: 5%;
+}
+
+#contenu{
+  width: 83vw;
+  padding: 2% 0% 2% 2%;
+  transition: all 800ms linear;
+}
+
+.contenu-actif{
+  width: 68vw !important;
+  margin-left: 15vw;
+}
+
+
+
+
+
+
+
+#accueil{
+  text-decoration: none;
+  color: white;
+}
+
+#nouveaute{
+  text-decoration: none;
+  color: white;
+}
+
+#playlist{
+  text-decoration: none;
+  color: white;
+}
+
+#parametre{
+  text-decoration: none;
+  color: white;
+}
+
+#contact{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+#accueil:hover,#nouveaute:hover{
+  color:#4169E1;
+}
+
+
+
+
+#listeChampText a{
+  cursor: pointer;
+}

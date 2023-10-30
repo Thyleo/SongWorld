@@ -1,0 +1,64 @@
+
+    body{
+        width :100%;
+        background: url("background.jpg");      
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin:auto;
+    }
+
+    /*La phrase de debut*/
+    h1{
+        margin-top: 1%;
+        font-size: 300%;
+        color: white;
+        font-family: Courier New, monospace;
+        text-align: center;    
+    }
+
+    
+    /*La partie des slides qui defilent*/
+    .slide{
+        float:left;
+    }
+
+    .slides{
+        width: calc(805px * 3);
+        animation: glisse 10s infinite;
+    }
+
+    .slider{
+        width:805px;
+        overflow: hidden;
+        margin: 100px auto;
+    }
+
+    #bloc{
+        display: inline-block;
+    }
+
+    /* La partie de changement d'images */
+    @keyframes glisse {
+        0%{
+            transform : translateX(0);
+        }
+        10%{
+            transform : translateX(0);
+        }
+        33%{
+            transform : translateX(-805px);
+        }
+        43%{
+            transform : translateX(-805px);
+        }
+        66%{
+            transform : translateX(-1610px);
+        }
+        76%{
+            transform : translateX(-1610px);
+        }
+        100%{
+            transform : translateX(0);
+        }
+    }
